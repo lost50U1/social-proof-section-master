@@ -1,0 +1,97 @@
+:root {
+  --bs-body-font-family: "League Spartan", sans-serif;
+  --bs-body-font-size: 0.9375rem; /* 15px */
+  --bs-body-bg: var(--light-grayish-blue);
+  --white: hsl(0, 0%, 100%);
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+}
+
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: var(--very-dark-magenta) !important;
+}
+
+.dark-magenta {
+  color: var(--dark-grayish-magenta) !important;
+}
+.light-magenta-bg {
+  background-color: var(--light-grayish-magenta) !important;
+  color: var(--very-dark-magenta);
+}
+
+.very-dark-magenta {
+  color: var(--very-dark-magenta);
+}
+
+.soft-pink {
+  color: var(--soft-pink);
+}
+
+.very-dark-magenta-bg {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+}
+
+.rounded-circle {
+  width: 40px;
+  height: 100%;
+}
+
+h2,
+p {
+  margin-bottom: 0;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.fs-1 {
+  font-size: calc(1.8rem + 1.5vw) !important;
+  line-height: 0.8 !important;
+}
+
+@media (min-width: 768px) {
+  .p-2 {
+    padding: 0 !important;
+  }
+  .left {
+    width: 420px;
+  }
+  .right {
+    /* width: 538px; */
+  }
+  .right .rounded-3 {
+    width: 440px;
+  }
+
+  .very-dark-magenta-bg:last-child {
+    margin-right: 0;
+  }
+  .very-dark-magenta-bg {
+    /* max-width: 350px; */
+    margin: 0 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+  }
+  .text-center {
+    text-align: left !important;
+  }
+  .fs-6 {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+}
