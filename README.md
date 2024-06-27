@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/testimonials-grid-section-with-bootstrap-kA0I5KPcri)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/social-proof-section-with-bootstrap-4MHmBTmsOx)
 - Live Site URL: [Add live site URL here](https://lost50u1.github.io/social-proof-section-master/)
 
 ## My process
